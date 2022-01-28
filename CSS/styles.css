@@ -270,8 +270,84 @@ Font type: Montserra */
 }
 
 
+/*Pricing section*/
 
+.pricing{
+    margin: 0;
+    padding-left: 17vw;
+    padding-right: 17vw;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
 
+}
+.card-price{
+    border: 1px solid #23A6F0;
+    padding: 15px;
+    border-radius: 5px;
+    padding-bottom: 3vw;
+}
+
+.price-tag{
+    padding-top: 4vw;
+}
+
+.price-header{
+    text-align: center;
+
+}
+.card-content{
+    text-align: center;
+}
+
+.card-content h1{
+    color: #23A6F0;
+    font-size: 40px;
+}
+
+.zero{
+    padding: 0.5px;
+}
+
+.long{
+    padding-top: 5.4vw
+}
+
+.short{
+    margin-top: 4.6vw;
+}
+
+.card-content button{
+    width: 75%;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1vw;
+    margin-top: 1.5vw;
+    padding: 10px;
+    color: white;
+}
+
+.card-content button:hover{
+    background-color: wheat;
+    color: #23A6F0;
+    transition: 1s;
+}
+
+.cl-card{
+    background-color: #252B42;
+    color: white;
+}
+
+sup{
+    font-size: 10px;
+}
+
+sub{
+    font-size: 10px;
+    vertical-align: 0;
+    margin: 0;
+    padding: 0;
+}
 
 
 
