@@ -3,7 +3,8 @@
 }
 
 .section-1{
-    padding: 15px;
+    padding-left: 10vh;
+    padding-right: 10vh;
     background-image: url("images/#hero-cover.3.png");
     height: 100vh;
     background-size: cover;
@@ -107,6 +108,49 @@ Font type: Montserra */
     color: #23A6F0;
     transition: 1s;
 }
+
+/* Stying the info area*/
+
+.welcome{
+    align-items: center;
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    font-family: monospace;
+    
+}
+
+.more-btn{
+    padding-top: 3vw;
+    justify-content: space-around;
+
+}
+
+.more-btn .button-1{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #23A6F0;
+}
+
+.more-btn .button-2{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .01);
+    margin-left: 5vw;
+}
+
+
+
+
+
+
+
 
 
 
