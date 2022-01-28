@@ -2,8 +2,146 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.section{
+    padding-left: 3vw;
+    height: 100vh;
+    padding-right: 3vw;
+    background-image: url("assets/hero-cover.3.png");
+    background-size: cover;
+    background-image: url("images/");
+
 
 }
+
+body{
+    height: 100vh;
+    background-image: url("images/hero-cover.3.png");
+}
+
+
 /* Project-Primary-Color: #23A6F0
 Background-Color: #252B42
 Font type: Montserra */
+
+/* Rows and column design*/
+
+.row::after{
+    content: "";
+    clear: left;
+    display: table;
+}
+
+[class*="column-"]{
+    float: left;
+    padding: 10px;
+}
+
+.column-three-quoter{
+    width: 33.33%;
+}
+
+.column-half{
+    width: 50%;
+}
+
+
+/*Desigining the header*/
+.company-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links ul{
+    list-style: none;
+}
+
+.links li{
+    display: inline-block;
+    padding-left: 3vw;
+}
+
+.links a{
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.links a:hover{
+    color: #23A6F0;
+    background-color: wheat;
+    transition: 1s;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 5vw;
+}
+
+.login p{
+    padding-left: 15vw;
+}
+
+.login p a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+
+.login p a:hover{
+    color: #23A6F0;
+    background-color: wheat;
+    transition: 1s;
+}
+
+.login-btn{
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: #23A6F0;
+    font-size: 1.2vw;
+    color: white;
+}
+
+.login-btn:hover{
+    background-color: wheat;
+    color: #23A6F0;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
