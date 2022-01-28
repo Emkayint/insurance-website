@@ -4,21 +4,13 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-.section{
-    padding-left: 3vw;
+.section-1{
+    background-image: url("images/#hero-cover.3.png");
     height: 100vh;
-    padding-right: 3vw;
-    background-image: url("assets/hero-cover.3.png");
-    background-size: cover;
-    background-image: url("images/");
-
-
 }
 
-body{
-    height: 100vh;
-    background-image: url("images/hero-cover.3.png");
-}
+
+
 
 
 /* Project-Primary-Color: #23A6F0
