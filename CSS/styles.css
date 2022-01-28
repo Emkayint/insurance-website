@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section-1{
@@ -28,12 +29,19 @@ Font type: Montserra */
     padding: 10px;
 }
 
-.column-three-quoter{
+.column-third{
     width: 33.33%;
 }
 
 .column-half{
     width: 50%;
+}
+.column-quoter{
+    width: 25%;
+}
+
+.column-three-quoter{
+    width: 75%;
 }
 
 
@@ -72,11 +80,6 @@ Font type: Montserra */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-left: 5vw;
-}
-
-.login p{
-    padding-left: 15vw;
 }
 
 .login p a{
@@ -175,7 +178,15 @@ Font type: Montserra */
 }
 
 
+/*Life*/
 
+.life-section{
+    padding: 11vw;
+}
+
+.life-content{
+    text-align: center;
+}
 
 
 
