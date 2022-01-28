@@ -214,6 +214,23 @@ Font type: Montserra */
     max-height: 12vw;
 }
 
+.social-media{
+    padding-right: 7vw;
+    padding-left: 7vw;
+    justify-content: space-around;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons img{
+    max-height: 4vw;
+    justify-content: space-around;
+    display: inline-block;
+}
+
+
 
 
 
