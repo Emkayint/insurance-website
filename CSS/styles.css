@@ -218,6 +218,7 @@ Font type: Montserra */
     padding-right: 7vw;
     padding-left: 7vw;
     justify-content: space-around;
+    padding-bottom: 3vw;
 }
 
 .social-icons{
@@ -230,9 +231,43 @@ Font type: Montserra */
     display: inline-block;
 }
 
+.subscription{
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+.newsletter{
+    background: linear-gradient(100deg, #252B42, #4d2245);
+    padding-left: 3vw;
+}
 
+.newsletter h2{
+    color: white;
+}
 
+.newsletter p{
+    float: right;
+    padding-right: 5vw;
+    border-radius: 20px;
+}
 
+.newsletter input{
+    height: 3vw;
+    text-align: center;
+    border: none;
+}
+.newsletter button{
+    height: 3vw;
+    width: 7vw;
+    border: none;
+    text-align: center;
+    background-color: #23A6F0;
+}
+
+.newsletter button:hover{
+    background-color: wheat;
+    color: #23A6F0;
+    transition: 1s;
+}
 
 
 
