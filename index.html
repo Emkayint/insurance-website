@@ -282,8 +282,20 @@
                     <input type="text" placeholder="Full Name">
                     <label >Email address *</label>
                     <input type="email" placeholder="example@gmail.com">
-                    <label for="Department" ></label>
-                    <input type="dr">
+                    <label for="Department" >Department *</label>
+                    <select name="departments" id="departments" placeholder="Please select">
+                        <option value="">Please Select</option>
+                        <option value="defence">defence</option>
+                        <option value="USA">USA</option>
+                        <option value="fiat">Fiat</option>
+                    </select>
+
+                    <label for="time">Time</label>
+                    <select name="time" id="time">
+                        <option value="4:00">4:00 Available</option>
+                    </select>
+                    <br>
+                    <button type="submit">Book Appointment</button>
 
                 </form>
             </div>

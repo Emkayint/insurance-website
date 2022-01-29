@@ -352,23 +352,80 @@ sub{
 /* Styling branches*/
 
 .branches{
-    padding-left: 7vw;
-    padding-right: 7vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
     background-size: 1vw;
     background-color: #252B42;
     background-position: 5vw;
+    background: linear-gradient(180deg, #252B42 70%, #ffff 30%);
 
+}
+
+.map{
+    padding-top: 3vw;
 }
 
 .world-map img{
-    width: 40vw;
+    max-width: 20vw;
+    float: right;
 }
 
 
+/* Form */
+
+.forms{
+    padding: 5vw;
+    justify-content: center;
+}
+
+.forms img{
+    max-height: 33vw;
+}
+
+.form-content{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: block;
+    padding: 25px;
+    width: 30vw;
+    background-color: white;
+}
+form input, select{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #f2f2f2
+} 
 
 
+form label{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 350;
 
+}
 
+form button{
+    padding: 10px;
+    background-color: #23A6F0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+form button:hover{
+    background-color: wheat;
+    color: #090d0f;
+    transition: 1s;
+    cursor: pointer;
+}
 
 
 
