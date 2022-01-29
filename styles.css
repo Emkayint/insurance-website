@@ -167,7 +167,7 @@ header{
     text-decoration: none;
     text-align: center;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 10px;
     background: rgba(0, 0, 0, .01);
     margin-left: 5vw;
@@ -205,9 +205,6 @@ header{
 .last h1{
     color: #f2f2f2;
 }
-.first{
-
-}
 
 
 /*Life*/
@@ -215,8 +212,8 @@ header{
 .life-section{
     padding-left: 11vw;
     padding-right: 11vw;
-    padding-top: 15vw;
-    padding-bottom: 8vw;
+    padding-top: 20vw;
+    padding-bottom: 15vw;
     background-color: #f2f2f2;
 }
 
@@ -251,7 +248,7 @@ header{
     box-shadow: 0px 4px 7px rgba(0, 0, 0, .3);
     max-width: 90%;
     padding: 25px;
-    position: relative;
+    border-radius: 20px;
     text-align: center;
     
 }
@@ -292,7 +289,7 @@ header{
 }
 .newsletter{
     background: linear-gradient(100deg, #252B42, #4d2245);
-    padding-left: 3vw;
+    padding: 3vw;
 }
 
 .newsletter h2{
@@ -308,10 +305,14 @@ header{
 .newsletter input{
     text-align: center;
     border: none;
-    height: 30px;
+    width: 70%;
+    height: 70px;
+    border-radius: 5px;
 }
 .newsletter button{
-    height: 30px;
+    height: 70px;
+    width: 30%;
+    border-radius: 5px;
     border: none;
     text-align: center;
     background-color: #23A6F0;
@@ -346,7 +347,7 @@ header{
     border: 1px solid #23A6F0;
     padding: 15px;
     background: #f2f2f2;
-    border-radius: 5px;
+    border-radius: 20px;
     padding-bottom: 3vw;
 }
 
@@ -387,7 +388,7 @@ header{
 }
 
 .card-content button{
-    width: 100%;
+    width: 70%;
     background-color: #23A6F0;
     border: none;
     border-radius: 5px;
@@ -511,6 +512,10 @@ form button:hover{
     margin-right: 10vw;
 }
 
+hr{
+    display: none;
+}
+
 .btn-hover:hover{
     background-color: wheat;
     color: #23A6F0;
@@ -518,6 +523,7 @@ form button:hover{
 }
 
 .details{
+    padding-top: 4vw;
     padding-left: 8vw;
     padding-right: 8vw;
 }
@@ -544,7 +550,9 @@ footer p{
     color: #23A6F0;
 }
 /* common*/
-
+.ig{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
 
 
 /*Rsponsiveness*/
@@ -572,7 +580,7 @@ footer p{
     }
     
     .column-fidth{
-        width: 50%;
+        width: 100%;
         float: left;
     }
     .form-content{
@@ -616,7 +624,8 @@ footer p{
     }
 
     footer p{
-        float: unset;
+
+        justify-content: space-around;
     }
     .links ul{
         padding: 0;
@@ -627,5 +636,15 @@ footer p{
     }
     .newsletter p{
         float: unset;
+    }
+
+    hr{
+        display: block;
+        width: 60%;
+    }
+    
+    .bottom{
+        display: flex;
+        justify-content: space-around;
     }
 }
