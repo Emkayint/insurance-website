@@ -44,6 +44,10 @@ Font type: Montserra */
     width: 75%;
 }
 
+.column-fidth{
+    width: 18%;
+}
+
 
 /*Desigining the header*/
 .company-name{
@@ -353,11 +357,12 @@ sub{
 
 .branches{
     padding-left: 8vw;
+    padding-bottom: 3vw;
     padding-right: 8vw;
     background-size: 1vw;
     background-color: #252B42;
     background-position: 5vw;
-    background: linear-gradient(180deg, #252B42 70%, #ffff 30%);
+    background: linear-gradient(180deg, #252B42 70%, #f2f2f2 30%);
 
 }
 
@@ -376,10 +381,11 @@ sub{
 .forms{
     padding: 5vw;
     justify-content: center;
+    text-align: center;
 }
 
 .forms img{
-    max-height: 33vw;
+    max-height: 37vw;
 }
 
 .form-content{
@@ -428,6 +434,25 @@ form button:hover{
 }
 
 
+.contact-area button{
+    float: right;
+    padding: 10px;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10vw;
+}
+
+.btn-hover:hover{
+    background-color: wheat;
+    color: #23A6F0;
+    transition: 1s;
+}
+
+.details{
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
 
 
 
