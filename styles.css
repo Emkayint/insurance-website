@@ -250,7 +250,7 @@ header{
 .contact-card{
     box-shadow: 0px 4px 7px rgba(0, 0, 0, .3);
     max-width: 90%;
-    padding: 3vw;
+    padding: 25px;
     position: relative;
     text-align: center;
     
@@ -284,6 +284,8 @@ header{
     display: inline-block;
 }
 
+/* Styling the newsletter*/
+
 .subscription{
     padding-left: 7vw;
     padding-right: 7vw;
@@ -299,18 +301,17 @@ header{
 
 .newsletter p{
     float: right;
-    padding-right: 5vw;
     border-radius: 20px;
+    width: 100%;
 }
 
 .newsletter input{
-    height: 3vw;
     text-align: center;
     border: none;
+    height: 30px;
 }
 .newsletter button{
-    height: 3vw;
-    width: 7vw;
+    height: 30px;
     border: none;
     text-align: center;
     background-color: #23A6F0;
@@ -552,6 +553,7 @@ footer p{
     [class*="column-"]{
         float: left;
         padding: 10px;
+        justify-content: center;
     }
     
     .column-third{
@@ -622,5 +624,8 @@ footer p{
 
     .pricing{
         padding: 30px;
+    }
+    .newsletter p{
+        float: unset;
     }
 }
