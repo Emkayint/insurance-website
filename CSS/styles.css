@@ -333,6 +333,14 @@ header{
     padding-bottom: 15vh;
 
 }
+.green{
+    color: green;
+}
+
+.gray{
+    color: #f2f2f2;
+}
+
 .card-price{
     border: 1px solid #23A6F0;
     padding: 15px;
@@ -354,8 +362,14 @@ header{
 
 .card-content h1{
     color: #23A6F0;
-    font-size: 3vw;
-    padding: 3vw;
+    font-weight: bold;
+    font-size: 4vw;
+    padding: 2vw;
+}
+
+.card-content h2{
+    font-size: 2vw;
+    padding: 2vw;
 }
 
 .zero{
@@ -517,5 +531,15 @@ footer h6{
     padding-right: 2vw;
 }
 
+footer p{
+    display: inline;
+    color: #23A6F0;
+    padding: 15px;
+    float: right;
+}
+
+.teal{
+    color: #23A6F0;
+}
 /* common*/
 
