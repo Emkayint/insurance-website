@@ -349,6 +349,20 @@ sub{
     padding: 0;
 }
 
+/* Styling branches*/
+
+.branches{
+    padding-left: 7vw;
+    padding-right: 7vw;
+    background-size: 1vw;
+    background-color: #252B42;
+    background-position: 5vw;
+
+}
+
+.world-map img{
+    width: 40vw;
+}
 
 
 
