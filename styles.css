@@ -8,6 +8,7 @@
     background-image: url("images/hero-cover3.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 105vh;
     padding-left: 8vw;
     padding-right: 8vw;
@@ -152,8 +153,9 @@ header{
     text-decoration: none;
     text-align: center;
     padding: 10px;
+    color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #23A6F0;
 }
 
@@ -168,14 +170,14 @@ header{
     text-align: center;
     padding: 10px;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 20px;
     background: rgba(0, 0, 0, .01);
     margin-left: 5vw;
+    color: white;
 }
 .button-2:hover{
     background-color: #23A6F0;
     color: white;
-    border: 1px solid violet;
     transition: 1s;
 }
 
@@ -183,10 +185,6 @@ header{
 
 
 /* Styling the info cards*/
-
-.more-info{
-    margin-top: vw;
-}
 .card{
     padding:2vw 5vw 2vw 5vw;
     background-color: white;
@@ -329,8 +327,8 @@ header{
 
 .pricing{
     margin: 0;
-    padding-left: 17vw;
-    padding-right: 17vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
     padding-top: 15vh;
     padding-bottom: 15vh;
 
@@ -345,10 +343,11 @@ header{
 
 .card-price{
     border: 1px solid #23A6F0;
-    padding: 15px;
+    padding: 10px;
     background: #f2f2f2;
     border-radius: 20px;
     padding-bottom: 3vw;
+    justify-content: space-evenly;
 }
 
 .price-tag{
@@ -380,11 +379,9 @@ header{
 }
 
 .long{
-    padding-top: 5.4vw
-}
-
-.short{
-    margin-top: 4.6vw;
+    top: -20px;
+    position: relative;
+    padding-top: 40px;
 }
 
 .card-content button{
@@ -646,5 +643,29 @@ footer p{
     .bottom{
         display: flex;
         justify-content: space-around;
+    }
+
+    .welcome h1{
+        font-size: 3px;
+    }
+}
+
+
+/*Animation*/
+.anime:hover{
+    animation: anime 3s ease;
+    color: white;
+}
+
+@keyframes anime{
+    from{
+        top: 0px;
+        background-color: white;
+        color: black;
+    }
+    to{ 
+        bottom: 300px;
+        background-color: rgba(57, 170, 34, 0.4);
+        color: #23A6F0;
     }
 }
