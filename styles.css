@@ -448,7 +448,6 @@ sub{
 .forms{
     padding: 5vw;
     justify-content: center;
-    text-align: center;
 }
 
 .forms img{
