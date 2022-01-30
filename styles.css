@@ -205,9 +205,6 @@ header{
 .last h1{
     color: #f2f2f2;
 }
-.first{
-
-}
 
 
 /*Life*/
@@ -572,7 +569,7 @@ footer p{
     }
     
     .column-fidth{
-        width: 50%;
+        width: 100%;
         float: left;
     }
     .form-content{
