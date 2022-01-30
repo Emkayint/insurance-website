@@ -62,7 +62,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: whitesmoke;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .links ul{
@@ -94,6 +96,7 @@ header{
     align-items: center;
     align-content: center;
     justify-content: space-around;
+    font-weight: 900;
 }
 
 #login {
@@ -116,6 +119,7 @@ header{
     border-radius: 7px;
     background-color: #23A6F0;
     color: white;
+    font-weight: 900;
 }
 
 .login-btn:hover{
